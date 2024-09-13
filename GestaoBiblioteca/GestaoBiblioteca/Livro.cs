@@ -62,7 +62,9 @@ namespace GestaoBiblioteca
         //Mostrar informações
         public void ExibirInformacoes()
         {
-            Console.WriteLine($"{Titulo} (Autor: {Autor}, Ano: {AnoPublicacao}) - Disponíveis: {ExemplaresDisponiveis}");
+            
+            Console.WriteLine($"- {Titulo} (Autor: {Autor}, Ano: {AnoPublicacao}) - Disponíveis: {ExemplaresDisponiveis}\n");
+            
         }
 
     }

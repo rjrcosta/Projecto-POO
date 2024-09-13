@@ -21,9 +21,11 @@ namespace GestaoBiblioteca
             var disponiveis = livros.Where(l => l.TemDisponibilidade()).ToList();
             if (disponiveis.Count > 0)
             {
-                Console.WriteLine("Livros disponíveis:");
+                Console.Clear();
+                Console.WriteLine("Livros disponíveis:\n");
                 foreach (var livro in disponiveis)
                 {
+                    
                     livro.ExibirInformacoes();
                 }
             }
