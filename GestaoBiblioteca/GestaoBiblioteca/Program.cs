@@ -232,14 +232,12 @@ namespace GestaoBiblioteca
             Utilizador.funcionarios.Add(new Funcionario("Mariana Santos", "Largo E, 202", "8642-7531", "mariana.santos", "senha345"));
             Utilizador.funcionarios.Add(new Funcionario("José Carlos Silva", "Avenida B, 456", "9876-5432", "jose.carlos", "senha456"));
 
-            //Usuario teste
-            Utilizador.funcionarios.Add(new Funcionario("teste", "Avenida B, 456", "9876-5432", "t", "t"));
-            Utilizador.usuarios.Add(new Utente("u", "Rua A, 123", "1234-5678", "u", "u"));
+         
+            
 
         }
 
-        //************************************ Métodos
-        //Função para validar Titulo de Livro
+        //************************************ Métodos ********************************************
       
 
         //Função para validar inteiros
@@ -277,7 +275,6 @@ namespace GestaoBiblioteca
                     return imput;
                 }
             }
-            
         }
 
         //Menu Inicial
@@ -305,12 +302,6 @@ namespace GestaoBiblioteca
 
             return novoLivro;
         }
-
-
-
-
-
-
     }
 }
 
