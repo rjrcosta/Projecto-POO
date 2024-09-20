@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Cesae\\Dropbox\\Programa\u00E7\u00E3o Orientadada a Objectos\\Projecto\\Projecto-POO\\GestaoBiblioteca\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|c:\\users\\cesae\\dropbox\\programa\u00E7\u00E3o orientadada a objectos\\projecto\\projecto-poo\\gestaobiblioteca\\gestaobiblioteca\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|solutionrelative:gestaobiblioteca\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|c:\\users\\cesae\\dropbox\\programa\u00E7\u00E3o orientadada a objectos\\projecto\\projecto-poo\\gestaobiblioteca\\gestaobiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|solutionrelative:gestaobiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|c:\\users\\cesae\\dropbox\\programa\u00E7\u00E3o orientadada a objectos\\projecto\\projecto-poo\\gestaobiblioteca\\gestaobiblioteca\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|solutionrelative:gestaobiblioteca\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|c:\\users\\cesae\\dropbox\\programa\u00E7\u00E3o orientadada a objectos\\projecto\\projecto-poo\\gestaobiblioteca\\gestaobiblioteca\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|solutionrelative:gestaobiblioteca\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|c:\\users\\cesae\\dropbox\\programa\u00E7\u00E3o orientadada a objectos\\projecto\\projecto-poo\\gestaobiblioteca\\gestaobiblioteca\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|solutionrelative:gestaobiblioteca\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|c:\\users\\cesae\\dropbox\\programa\u00E7\u00E3o orientadada a objectos\\projecto\\projecto-poo\\gestaobiblioteca\\gestaobiblioteca\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|solutionrelative:gestaobiblioteca\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|c:\\users\\cesae\\dropbox\\programa\u00E7\u00E3o orientadada a objectos\\projecto\\projecto-poo\\gestaobiblioteca\\gestaobiblioteca\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|solutionrelative:gestaobiblioteca\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|c:\\users\\cesae\\dropbox\\programa\u00E7\u00E3o orientadada a objectos\\projecto\\projecto-poo\\gestaobiblioteca\\gestaobiblioteca\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|solutionrelative:gestaobiblioteca\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|c:\\users\\cesae\\dropbox\\programa\u00E7\u00E3o orientadada a objectos\\projecto\\projecto-poo\\gestaobiblioteca\\gestaobiblioteca\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|solutionrelative:gestaobiblioteca\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|c:\\users\\cesae\\dropbox\\programa\u00E7\u00E3o orientadada a objectos\\projecto\\projecto-poo\\gestaobiblioteca\\gestaobiblioteca\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|solutionrelative:gestaobiblioteca\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|c:\\users\\cesae\\dropbox\\programa\u00E7\u00E3o orientadada a objectos\\projecto\\projecto-poo\\gestaobiblioteca\\gestaobiblioteca\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F0AAE4-CF99-4B74-AA40-F2D8DB4C1C5E}|GestaoBiblioteca\\GestaoBiblioteca.csproj|solutionrelative:gestaobiblioteca\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +38,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Emprestimo.cs",
+              "DocumentMoniker": "C:\\Users\\Cesae\\Dropbox\\Programa\u00E7\u00E3o Orientadada a Objectos\\Projecto\\Projecto-POO\\GestaoBiblioteca\\GestaoBiblioteca\\Emprestimo.cs",
+              "RelativeDocumentMoniker": "GestaoBiblioteca\\Emprestimo.cs",
+              "ToolTip": "C:\\Users\\Cesae\\Dropbox\\Programa\u00E7\u00E3o Orientadada a Objectos\\Projecto\\Projecto-POO\\GestaoBiblioteca\\GestaoBiblioteca\\Emprestimo.cs",
+              "RelativeToolTip": "GestaoBiblioteca\\Emprestimo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T18:05:48.207Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -59,57 +73,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Utente.cs",
-              "DocumentMoniker": "C:\\Users\\Cesae\\Dropbox\\Programa\u00E7\u00E3o Orientadada a Objectos\\Projecto\\Projecto-POO\\GestaoBiblioteca\\GestaoBiblioteca\\Utente.cs",
-              "RelativeDocumentMoniker": "GestaoBiblioteca\\Utente.cs",
-              "ToolTip": "C:\\Users\\Cesae\\Dropbox\\Programa\u00E7\u00E3o Orientadada a Objectos\\Projecto\\Projecto-POO\\GestaoBiblioteca\\GestaoBiblioteca\\Utente.cs",
-              "RelativeToolTip": "GestaoBiblioteca\\Utente.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwD4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T17:50:40.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Emprestimo.cs",
-              "DocumentMoniker": "C:\\Users\\Cesae\\Dropbox\\Programa\u00E7\u00E3o Orientadada a Objectos\\Projecto\\Projecto-POO\\GestaoBiblioteca\\GestaoBiblioteca\\Emprestimo.cs",
-              "RelativeDocumentMoniker": "GestaoBiblioteca\\Emprestimo.cs",
-              "ToolTip": "C:\\Users\\Cesae\\Dropbox\\Programa\u00E7\u00E3o Orientadada a Objectos\\Projecto\\Projecto-POO\\GestaoBiblioteca\\GestaoBiblioteca\\Emprestimo.cs",
-              "RelativeToolTip": "GestaoBiblioteca\\Emprestimo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T18:05:48.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Biblioteca.cs",
               "DocumentMoniker": "C:\\Users\\Cesae\\Dropbox\\Programa\u00E7\u00E3o Orientadada a Objectos\\Projecto\\Projecto-POO\\GestaoBiblioteca\\GestaoBiblioteca\\Biblioteca.cs",
               "RelativeDocumentMoniker": "GestaoBiblioteca\\Biblioteca.cs",
               "ToolTip": "C:\\Users\\Cesae\\Dropbox\\Programa\u00E7\u00E3o Orientadada a Objectos\\Projecto\\Projecto-POO\\GestaoBiblioteca\\GestaoBiblioteca\\Biblioteca.cs",
               "RelativeToolTip": "GestaoBiblioteca\\Biblioteca.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowBgAAAA4AAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAmwG8AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T18:03:52.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Utente.cs",
+              "DocumentMoniker": "C:\\Users\\Cesae\\Dropbox\\Programa\u00E7\u00E3o Orientadada a Objectos\\Projecto\\Projecto-POO\\GestaoBiblioteca\\GestaoBiblioteca\\Utente.cs",
+              "RelativeDocumentMoniker": "GestaoBiblioteca\\Utente.cs",
+              "ToolTip": "C:\\Users\\Cesae\\Dropbox\\Programa\u00E7\u00E3o Orientadada a Objectos\\Projecto\\Projecto-POO\\GestaoBiblioteca\\GestaoBiblioteca\\Utente.cs",
+              "RelativeToolTip": "GestaoBiblioteca\\Utente.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA5wB0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T17:50:40.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Funcionario.cs",
               "DocumentMoniker": "C:\\Users\\Cesae\\Dropbox\\Programa\u00E7\u00E3o Orientadada a Objectos\\Projecto\\Projecto-POO\\GestaoBiblioteca\\GestaoBiblioteca\\Funcionario.cs",
               "RelativeDocumentMoniker": "GestaoBiblioteca\\Funcionario.cs",
               "ToolTip": "C:\\Users\\Cesae\\Dropbox\\Programa\u00E7\u00E3o Orientadada a Objectos\\Projecto\\Projecto-POO\\GestaoBiblioteca\\GestaoBiblioteca\\Funcionario.cs",
               "RelativeToolTip": "GestaoBiblioteca\\Funcionario.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBoAAAAIAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCMAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T17:55:01.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Utilizador.cs",
               "DocumentMoniker": "C:\\Users\\Cesae\\Dropbox\\Programa\u00E7\u00E3o Orientadada a Objectos\\Projecto\\Projecto-POO\\GestaoBiblioteca\\GestaoBiblioteca\\Utilizador.cs",
               "RelativeDocumentMoniker": "GestaoBiblioteca\\Utilizador.cs",
@@ -117,8 +119,7 @@
               "RelativeToolTip": "GestaoBiblioteca\\Utilizador.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T17:39:21.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T17:39:21.998Z"
             },
             {
               "$type": "Document",
@@ -128,20 +129,20 @@
               "RelativeDocumentMoniker": "GestaoBiblioteca\\Livro.cs",
               "ToolTip": "C:\\Users\\Cesae\\Dropbox\\Programa\u00E7\u00E3o Orientadada a Objectos\\Projecto\\Projecto-POO\\GestaoBiblioteca\\GestaoBiblioteca\\Livro.cs",
               "RelativeToolTip": "GestaoBiblioteca\\Livro.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAuwEAAAAAMAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAA0wEAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T17:01:16.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Cesae\\Dropbox\\Programa\u00E7\u00E3o Orientadada a Objectos\\Projecto\\Projecto-POO\\GestaoBiblioteca\\GestaoBiblioteca\\Program.cs",
               "RelativeDocumentMoniker": "GestaoBiblioteca\\Program.cs",
               "ToolTip": "C:\\Users\\Cesae\\Dropbox\\Programa\u00E7\u00E3o Orientadada a Objectos\\Projecto\\Projecto-POO\\GestaoBiblioteca\\GestaoBiblioteca\\Program.cs",
               "RelativeToolTip": "GestaoBiblioteca\\Program.cs",
-              "ViewState": "AQIAAOoAAAAAAAAAAAAgwPsAAAA7AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T17:00:32.07Z",
               "EditorCaption": ""

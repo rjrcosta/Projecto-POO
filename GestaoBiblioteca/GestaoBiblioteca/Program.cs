@@ -10,10 +10,7 @@ namespace GestaoBiblioteca
             Biblioteca biblioteca = new Biblioteca();
             InicializarObjectos(biblioteca);
 
-
-
-            //Console.WriteLine(DateTime.Now.DayOfWeek.ToString());
-            //Console.WriteLine((int)DateTime.Now.DayOfWeek);
+            
 
             int opcao1;
             string titulo = "";
@@ -31,15 +28,15 @@ namespace GestaoBiblioteca
                     case 1:
                         Console.Clear();
                         Console.Write("Nome do Usuário: ");
-                        string nome = Console.ReadLine();
+                        string nome = validacaoString(Console.ReadLine());
                         Console.Write("Endereço: ");
-                        string endereco = Console.ReadLine();
+                        string endereco = validacaoString(Console.ReadLine());
                         Console.Write("Telefone: ");
-                        string telefone = Console.ReadLine();
+                        string telefone = validacaoString(Console.ReadLine());
                         Console.Write("Identificador: ");
-                        string id = Console.ReadLine();
+                        string id = validacaoString(Console.ReadLine());
                         Console.Write("Senha: ");
-                        string pass = Console.ReadLine();
+                        string pass = validacaoString(Console.ReadLine());
 
                         Utilizador.usuarios.Add(new Utente(nome, endereco, telefone, id, pass));
 
@@ -54,11 +51,11 @@ namespace GestaoBiblioteca
                         Console.Write("Senha: ");
                         string senha = Console.ReadLine();
 
-                        var usuarioLogado = Utilizador.Login(identificador, senha);
+                        var utenteLogado = Utilizador.Login(identificador, senha);
 
-                        if (usuarioLogado != null)
+                        if (utenteLogado != null)
                         {
-                            if (usuarioLogado is Funcionario funcionario) // Menu para Funcionário
+                            if (utenteLogado is Funcionario funcionario) // Menu para Funcionário
                             {
 
                                 Console.Clear();
@@ -133,16 +130,21 @@ namespace GestaoBiblioteca
                                     }
                                 } while (validacaoInt(opcaoFuncionario) != 0);
                             }
-                            else if (usuarioLogado is Utente usuario) // Menu para Usuário
+                            else if (utenteLogado is Utente utente) // Menu para Usuário
                             {
                                 string opcaoUsuario;
                                 Console.Clear();
                                 do
                                 {
+                                    Console.WriteLine();
                                     Console.WriteLine("Menu Usuário:");
                                     Console.WriteLine("1. Consultar Livros Disponíveis");
-                                    Console.WriteLine("2. Histórico de Empréstimos");
+                                    Console.WriteLine("2. Empréstimos Ativos");
+                                    Console.WriteLine("3. Requisitar Livro");
+                                    Console.WriteLine("4. Devolver Livro");
+                                    Console.WriteLine("5. Histórico de Empréstimos");
                                     Console.WriteLine("0. Sair");
+                                    Console.WriteLine();
                                     Console.Write("Escolha uma opção: ");
                                     opcaoUsuario = Console.ReadLine();
 
@@ -150,11 +152,43 @@ namespace GestaoBiblioteca
                                     {
                                         case 1:
                                             Console.Clear();
-                                            usuario.ConsultarDisponibilidade(biblioteca);
+                                            utente.ConsultarDisponibilidade(biblioteca);
                                             break;
                                         case 2:
                                             Console.Clear();
-                                            usuario.HistoricoEmprestimos(biblioteca);
+                                            utente.EmprestimosActivos(biblioteca);
+                                            break;
+                                        case 3:
+                                            Console.Clear();
+                                            utente.ConsultarDisponibilidade(biblioteca);
+                                            Console.WriteLine();
+                                            Console.WriteLine("Qual o titulo do Livro para requisitar");
+                                            titulo = Console.ReadLine();
+                                            
+                                            while (biblioteca.ValidacaoTituloLivro(titulo) != 1)
+                                            {
+                                                Console.Clear();
+                                                utente.ConsultarDisponibilidade(biblioteca);
+                                                Console.WriteLine();
+                                                Console.WriteLine("Não encontrado livro com esse título");
+                                                Console.WriteLine("Qual o titulo do Livro para requisitar");
+                                                titulo = Console.ReadLine();
+                                            }
+                                            Console.Clear();
+                                            utente.EmprestarLivro(biblioteca, titulo, utente.Nome);
+
+                                            break;
+                                        case 4:
+                                            Console.Clear();
+                                            Console.Write("Título do Livro: ");
+                                            string tituloDevolucao = Console.ReadLine();
+                                            utente.DevolverLivro(biblioteca, tituloDevolucao, utente.Nome );
+                                            Console.WriteLine();
+                                            utente.EmprestimosActivos(biblioteca);
+                                            break;
+                                        case 5:
+                                            Console.Clear();
+                                            utente.HistoricoEmprestimos();
                                             break;
                                         case 0:
                                             
@@ -176,14 +210,7 @@ namespace GestaoBiblioteca
                         Console.WriteLine("Opção não é válida. Escolha 1 ou 2");
                         break;
                 }
-             
-                
-
-              
-            
-                }
-
-
+            }
         }
         //Inicializar Livros, Funcionarios e Utentes
         static void InicializarObjectos(Biblioteca biblioteca)
@@ -207,10 +234,14 @@ namespace GestaoBiblioteca
 
             //Usuario teste
             Utilizador.funcionarios.Add(new Funcionario("teste", "Avenida B, 456", "9876-5432", "t", "t"));
+            Utilizador.usuarios.Add(new Utente("u", "Rua A, 123", "1234-5678", "u", "u"));
 
         }
 
         //************************************ Métodos
+        //Função para validar Titulo de Livro
+      
+
         //Função para validar inteiros
         static int validacaoInt(string y)
         {
@@ -229,6 +260,24 @@ namespace GestaoBiblioteca
             int yInt = int.Parse(y);
 
             return yInt;
+        }
+
+        //Função para validar Strings
+        static string validacaoString(string imput)
+        {
+            while (true) 
+            {
+                if (string.IsNullOrEmpty(imput))
+                {
+                    Console.WriteLine("Não introduziu um dado correcto. tente novamente");
+                    imput = Console.ReadLine();
+                }
+                else
+                {
+                    return imput;
+                }
+            }
+            
         }
 
         //Menu Inicial
@@ -258,10 +307,6 @@ namespace GestaoBiblioteca
         }
 
 
-        //static Livro DevolverLivro(Biblioteca biblioteca)
-        //{
-       
-        //}
 
 
 

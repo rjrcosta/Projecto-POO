@@ -16,6 +16,7 @@ namespace GestaoBiblioteca
         public string Senha { get; private set; }
         // consultar com o grupo
         public DateTime DataRegisto { get; private set; }
+        public List<Emprestimo> EmprestimosUtente { get; private set; }
 
         //*** Construtor com todas as propriedades
         public Utente(string nome, string endereco, string telefone, string identificador, string senha)
@@ -26,6 +27,7 @@ namespace GestaoBiblioteca
             DataRegisto= DateTime.Now;
             Identificador = identificador;
             Senha = senha;
+            EmprestimosUtente = new List<Emprestimo>();
         }
 
         //*** Métodos ***
@@ -36,19 +38,27 @@ namespace GestaoBiblioteca
             biblioteca.ListarLivrosDisponiveis();
         }
 
-        //Consultar histórico de empréstimos desse Usuário
-        public void HistoricoEmprestimos(Biblioteca biblioteca)
+        //Consultar Livros emprestados a utente no momento
+        public void EmprestimosActivos(Biblioteca biblioteca)
         {
-            biblioteca.HistoricoEmprestimosUsuario(Identificador);
+            biblioteca.EmprestimosActivosUsuario(Identificador);
         }
 
-       
-        
+        //Consultar Historico Livros emprestados a utente
+        public void HistoricoEmprestimos()
+        {
+            foreach (var item in EmprestimosUtente)
+            {
+                item.ExibirInformacoes();
+            }
+        }
 
         // fazer o emprestimo
         public void EmprestarLivro(Biblioteca biblioteca, string tituloLivro, string nomeUsuario)
         {
             biblioteca.EmprestarLivro(tituloLivro, nomeUsuario);
+            
+
         }
 
 

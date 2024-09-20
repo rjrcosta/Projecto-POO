@@ -18,7 +18,10 @@ namespace GestaoBiblioteca
             LivroEmprestado = livro;
             Usuario = usuario;
             DataEmprestimo = DateTime.Now;
-            DataDevolucao = DataEmprestimo.AddDays(3); // 3 dias de empréstimo
+
+            DataDevolucao = DataEmprestimo.AddDays(diasdevolucao(DataEmprestimo)); // 3 dias de empréstimo ou quatro se calhar ao domingo
+         
+
             livro.DiminuirDisponibilidade();
         }
 
@@ -26,5 +29,17 @@ namespace GestaoBiblioteca
         {
             Console.WriteLine($"{LivroEmprestado.Titulo} empréstimo no nome de {Usuario.Nome} com o ID {Usuario.Identificador} em {DataEmprestimo.ToShortDateString()}. Devolução até {DataDevolucao.ToShortDateString()}.");
         }
+        private int diasdevolucao(DateTime dataemprestimo)
+        {
+              DateTime devolução = dataemprestimo.AddDays(3);
+                if (devolução.DayOfWeek.ToString()== "Sunday")
+                    {
+                return 4;
+                } 
+                
+            return 3;
+           
+        }
+
     }
 }

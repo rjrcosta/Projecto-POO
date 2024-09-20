@@ -16,6 +16,21 @@ namespace GestaoBiblioteca
             livros.Add(livro);
         }
 
+
+        public int ValidacaoTituloLivro(string nomeLivro)
+        {
+            var disponiveis =livros.FirstOrDefault(l => l.Titulo == nomeLivro);
+            if (disponiveis != null)
+            {
+                return 1;
+            }
+            else
+            {
+                return 0;
+            }
+           
+        }
+
         public void ListarLivrosDisponiveis()
         {
             var disponiveis = livros.Where(l => l.TemDisponibilidade()).ToList();
@@ -43,8 +58,10 @@ namespace GestaoBiblioteca
             if (livro != null && usuario != null)
             {
                 var emprestimo = new Emprestimo(livro, usuario);
-                emprestimos.Add(emprestimo);
+                emprestimos.Add(emprestimo); //Adicionar emprestimos
                 Console.WriteLine($"Livro '{livro.Titulo}' emprestado para {usuario.Nome}.");
+                
+                usuario.EmprestimosUtente.Add(emprestimo);//Adicionar emprestimo à lista de historico de emprestimos do utente
             }
             else
             {
@@ -84,7 +101,7 @@ namespace GestaoBiblioteca
             }
         }
 
-        public void HistoricoEmprestimosUsuario(string idUsuario)
+        public void EmprestimosActivosUsuario(string idUsuario)
         {
             var historico = emprestimos.Where(e => e.Usuario.Identificador == idUsuario).ToList();
             if (historico.Count > 0)
